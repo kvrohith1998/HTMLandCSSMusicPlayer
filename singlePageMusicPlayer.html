@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/b58e31a39a.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!--Header section-->
+    <header id="page-header">
+      <section id="header-left">
+        <div id=header-image><img src="Images/ninja-studio-icon.png"></div>
+        <div id="favorite">
+            <h1>
+              Favourites
+            </h1>
+        </div>
+      </section>
+      <section id="header-right">
+        <div id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="&emsp;Search">
+          <button type="submit" value="Submit"><i class="fa-solid fa-microphone"></i></button>
+        </div>
+        <div id="header-bell">
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <div id="profile-pic">
+          <img src="Images/profile-pic.png">
+        </div>
+      </section>
+    </header>
+    <!-- Body Section -->
+    <div id="content">
+      <main>
+        <!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div><!--Artist Details
+      >--><div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Taylor Swift</b>
+      	     	   <br/>
+      	     	   <artist-type>American singer-songwriter</artist-type>
+      	         </div>
+      	     	<followers>100M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+              Taylor Alison Swift is an American singer-songwriter. Her discography spans multiple genres and her narrative songwriting—often inspired by her personal life—has received critical praise and widespread media coverage. Swift has won 11 Grammy Awards and Emmy Award as well.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	206 Tracks | 12 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="Images/taylor-reputation.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Dress
+    			    	<br/>
+    			    	<author>Taylor Swift</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song" style="background-color: #202439;">
+    			<div id="song-number">
+            <i class="fa-solid fa-chart-simple" style="color:#21b7d8;"></i>
+    			    <img src="Images/taylor-reputation.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Ready for it ?
+    			    	<br/>
+    			    	<author>Taylor Swift</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="Images/taylor-reputation.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Delicate 
+    			    	<br/>
+    			    	<author>Taylor Swift</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="Images/taylor-reputation.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Don't Blame Me
+    			    	<br/>
+    			    	<author>Taylor Swift</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="Images/taylor-reputation.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Look What you Made Me Do
+    			    	<br/>
+    			    	<author>Taylor Swift</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 5-->
+    		<!--Song 6-->
+    		<div id="song">
+    			<div id="song-number">
+    			    06
+    			    <img src="Images/taylor-reputation.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Gorgeous
+    			    	<br/>
+    			    	<author>Taylor Swift</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 6-->
+    		<!--Song 7-->
+    		<div id="song">
+    			<div id="song-number">
+    			    07
+    			    <img src="Images/taylor-reputation.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Bad Blood
+    			    	<br/>
+    			    	<author>Taylor Swift</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	</div>
+    	<!--End of Song 7-->
+      </main>
+      <aside>
+        <div class="aside-header">
+   	     <!--Aside section title-->
+   	      <div id="aside-title">
+   		     Similar Artists
+   	      </div>
+          <!--End of aside section title-->
+          <!--Dropdown menu-->
+       	 <div id="aside-viewall">
+          <p>View All</p>
+   	     </div>
+        </div>
+        <div id="artist-similar">
+          <div id="artist-similar-items">
+            <!--Item 1-->
+            <div id="artist-similar-item">
+              <!--Song Image-->
+              <div id="latest-release-img">
+                <!--Play Button div which is hidden and appears on hover-->
+                <div id="latest-release-img-button" class="hide">
+                    <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+                  </div>
+              <!--End of Play Button Div-->
+                </div>
+                <!--End of Song Image-->
+                <!--Div containing song details-->
+              <div id="latest-item-title">
+                  <b>Revival</b>
+                  <p style="color:rgb(160, 159, 159)">December, 2020 &emsp;&emsp; </p>
+                </div>
+                <!--End of div containing song details-->
+                <!--Dropdown menu icon-->
+                  <div id="dropdown">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <br>
+                    <p class="time-length"style="color: rgb(160, 159, 159)">5:04</p>
+                  <div id="dropdown-menu" class="hide">
+                    <div id="dropdown-list">
+                      <i class="fas fa-play"></i>
+                      &nbsp;
+                        <a href="#music-bar">Play Now</a>
+                      </div>
+                    <hr/>
+                    <div id="dropdown-list">
+                      <i class="fas fa-plus"></i>
+                      &nbsp;
+                        <a href="#latest-release">Add to Queue</a>
+                      </div>
+                    <hr/>
+                    <div id="dropdown-list">
+                      <i class="fas fa-plus"></i>
+                      &nbsp;
+                        <a href="#latest-release">Add to Favourites</a>
+                      </div>
+                    <hr/>
+                    <div id="dropdown-list">
+                      <i class="fas fa-exclamation-circle"></i>
+                      &nbsp;
+                        <a href="#latest-release">Get Info</a>
+                      </div>
+                  </div>
+                    
+                </div>
+                <!--End of dropdown menu-->
+            </div>
+            <!--End of Item 1-->
+            <!--Item 2-->
+            <div id="artist-similar-item">
+              <!--Song Image-->
+              <div id="latest-release-img">
+                <!--Play Button div which is hidden and appears on hover-->
+                <div id="latest-release-img-button" class="hide">
+                     <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+                  </div>
+               <!--End of Play Button Div-->
+                 </div>
+                 <!--End of Song Image-->
+                 <!--Div containing song details-->
+               <div id="latest-item-title">
+                   <b>Revival</b>
+                   <p style="color:rgb(160, 159, 159)">December, 2020 &emsp;&emsp; </p>
+                 </div>
+                 <!--End of div containing song details-->
+                 <!--Dropdown menu icon-->
+                  <div id="dropdown">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <br>
+                    <p class="time-length"style="color: rgb(160, 159, 159)">5:04</p>
+                   <div id="dropdown-menu" class="hide">
+                     <div id="dropdown-list">
+                       <i class="fas fa-play"></i>
+                       &nbsp;
+                         <a href="#music-bar">Play Now</a>
+                       </div>
+                     <hr/>
+                     <div id="dropdown-list">
+                       <i class="fas fa-plus"></i>
+                       &nbsp;
+                         <a href="#latest-release">Add to Queue</a>
+                       </div>
+                     <hr/>
+                     <div id="dropdown-list">
+                       <i class="fas fa-plus"></i>
+                       &nbsp;
+                         <a href="#latest-release">Add to Favourites</a>
+                       </div>
+                     <hr/>
+                     <div id="dropdown-list">
+                       <i class="fas fa-exclamation-circle"></i>
+                       &nbsp;
+                         <a href="#latest-release">Get Info</a>
+                       </div>
+                   </div>
+                    
+                 </div>
+                 <!--End of dropdown menu-->
+            </div>
+            <!--End of Item 2-->
+            <!--Item 3-->
+            <div id="artist-similar-item">
+              <!--Song Image-->
+              <div id="latest-release-img">
+                <!--Play Button div which is hidden and appears on hover-->
+                <div id="latest-release-img-button" class="hide">
+                     <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+                  </div>
+               <!--End of Play Button Div-->
+                 </div>
+                 <!--End of Song Image-->
+                 <!--Div containing song details-->
+               <div id="latest-item-title">
+                   <b>Revival</b>
+                   <p style="color:rgb(160, 159, 159)">December, 2020 &emsp;&emsp; </p>
+                 </div>
+                 <!--End of div containing song details-->
+                 <!--Dropdown menu icon-->
+                  <div id="dropdown">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <br>
+                    <p class="time-length"style="color: rgb(160, 159, 159)">5:04</p>
+                   <div id="dropdown-menu" class="hide">
+                     <div id="dropdown-list">
+                       <i class="fas fa-play"></i>
+                       &nbsp;
+                         <a href="#music-bar">Play Now</a>
+                       </div>
+                     <hr/>
+                     <div id="dropdown-list">
+                       <i class="fas fa-plus"></i>
+                       &nbsp;
+                         <a href="#latest-release">Add to Queue</a>
+                       </div>
+                     <hr/>
+                     <div id="dropdown-list">
+                       <i class="fas fa-plus"></i>
+                       &nbsp;
+                         <a href="#latest-release">Add to Favourites</a>
+                       </div>
+                     <hr/>
+                     <div id="dropdown-list">
+                       <i class="fas fa-exclamation-circle"></i>
+                       &nbsp;
+                         <a href="#latest-release">Get Info</a>
+                       </div>
+                   </div>
+                    
+                 </div>
+                 <!--End of dropdown menu-->
+            </div>
+            <!--End of Item 3-->
+          </div>
+        </div>
+
+        <!--Aside section header-->
+        <div class="aside-header">
+   	     <!--Aside section title-->
+   	      <div id="aside-title">
+   		     Recently Played
+   	      </div>
+          <!--End of aside section title-->
+          <!--Dropdown menu-->
+       	 <div id="aside-viewall">
+          <p>View All</p>
+   		     <!-- <form>
+   			     <select>
+   			         <option id="Queue" label="Queue">Queue</option>
+   			         <option id="Playlist" lable="Playlist"><a href="MusicPlayerHomePage2.html">Playlist</a></option>
+   		         </select>
+   	         </form> -->
+   	     </div>
+         <!--End of dropdown menu-->
+        </div id="queue-list">
+        <!--End of aside section header-->
+        <!--List of Songs-->
+        <!--Song 1-->
+   	     <div id="queue-item">
+   	     	<!--Song Image-->
+          <div class="queue-number">01</div>
+   		     <div id="queue-item-img"></div>
+   		         <!--Song title-->
+   		     <div id="queue-item-title">
+                 <b>Same old Love</b>
+                 <p style="color:lightgrey;">Selena Gomez</p>
+             </div>
+             <!--End of song title-->
+             <!--Favourite icon-->
+             <div id="queue-favourite">
+        	     <i class="far fa-heart"></i>
+             </div>
+             <!--End of favourite icon-->
+       	 </div>
+       	 <!--End of song 1-->
+       	 <!--Song 2-->
+   	     <div id="queue-item">
+          <!--Song Image-->
+        <div class="queue-number"><i class="fa-solid fa-chart-simple" style="color:#21b7d8;"></i></div>
+          <div id="queue-item-img"></div>
+              <!--Song title-->
+          <div id="queue-item-title">
+               <b>Same old Love</b>
+               <p style="color:lightgrey;">Selena Gomez</p>
+           </div>
+           <!--End of song title-->
+           <!--Favourite icon-->
+           <div id="queue-favourite">
+             <i class="far fa-heart"></i>
+           </div>
+           <!--End of favourite icon-->
+        </div>
+       	 <!--End of song 2-->
+       	 <!--Song 3-->
+   	     <div id="queue-item">
+          <!--Song Image-->
+        <div class="queue-number">03</div>
+          <div id="queue-item-img"></div>
+              <!--Song title-->
+          <div id="queue-item-title">
+               <b>Same old Love</b>
+               <p style="color:lightgrey;">Selena Gomez</p>
+           </div>
+           <!--End of song title-->
+           <!--Favourite icon-->
+           <div id="queue-favourite">
+             <i class="far fa-heart"></i>
+           </div>
+           <!--End of favourite icon-->
+        </div>
+       	 <!--End of song 3-->
+       	 <!--Song 4-->
+   	     <div id="queue-item">
+          <!--Song Image-->
+        <div class="queue-number">04</div>
+          <div id="queue-item-img"></div>
+              <!--Song title-->
+          <div id="queue-item-title">
+               <b>Same old Love</b>
+               <p style="color:lightgrey;">Selena Gomez</p>
+           </div>
+           <!--End of song title-->
+           <!--Favourite icon-->
+           <div id="queue-favourite">
+             <i class="far fa-heart"></i>
+           </div>
+           <!--End of favourite icon-->
+        </div>
+       	 <!--End of song 4-->
+       	 <!--Song 5-->
+   	     <div id="queue-item">
+          <!--Song Image-->
+        <div class="queue-number">05</div>
+          <div id="queue-item-img"></div>
+              <!--Song title-->
+          <div id="queue-item-title">
+               <b>Same old Love</b>
+               <p style="color:lightgrey;">Selena Gomez</p>
+           </div>
+           <!--End of song title-->
+           <!--Favourite icon-->
+           <div id="queue-favourite">
+             <i class="far fa-heart"></i>
+           </div>
+           <!--End of favourite icon-->
+        </div>
+       	 <!--End of song 5-->
+       	 <!--Song 6-->
+   	     <div id="queue-item">
+          <!--Song Image-->
+        <div class="queue-number">06</div>
+          <div id="queue-item-img"></div>
+              <!--Song title-->
+          <div id="queue-item-title">
+               <b>Same old Love</b>
+               <p style="color:lightgrey;">Selena Gomez</p>
+           </div>
+           <!--End of song title-->
+           <!--Favourite icon-->
+           <div id="queue-favourite">
+             <i class="far fa-heart"></i>
+           </div>
+           <!--End of favourite icon-->
+        </div>
+       	 <!--End of song 6-->
+       	 <!--Song 7-->
+   	     <div id="queue-item">
+          <!--Song Image-->
+        <div class="queue-number">07</div>
+          <div id="queue-item-img"></div>
+              <!--Song title-->
+          <div id="queue-item-title">
+               <b>Same old Love</b>
+               <p style="color:lightgrey;">Selena Gomez</p>
+           </div>
+           <!--End of song title-->
+           <!--Favourite icon-->
+           <div id="queue-favourite">
+             <i class="far fa-heart"></i>
+           </div>
+           <!--End of favourite icon-->
+        </div>
+       	 <!--End of song 7-->
+      </aside>
+      <!--End of aside section--> 
+    </div>
+    <footer>
+      <!--The bottom music bar which pops up when we play a music-->
+     <div id="music-bar" class="hide">
+      <div id="footer-left">
+        <!--Music Icon-->
+          <div id="music-icon">
+            <img src="Images/selena-gomez-q.png" alt="music-icon">
+          </div>
+          <!--End of music icon-->
+          <!--Music title-->
+          <div id="music-title">
+          <b>Same old Love</b>
+              <div id="favourite">
+              <i class="far fa-heart"></i>
+              </div>
+              <div id="remove">
+              <i class="fas fa-ban"></i>
+              </div>
+              <br/>
+              <artist id="music-player-title-artist">Selena Gomez</artist>
+          </div>
+     <!--End of music title-->
+      </div>
+       <div id="footer-center">
+       <!--Play buttons-->
+       <div id="play-buttons">
+         <i class="fas fa-random"></i>
+         <i class="fas fa-backward"></i>
+         <i class="fas fa-pause-circle"></i>
+         <i class="fas fa-forward"></i>
+         <i class="fas fa-undo-alt"></i>
+       </div>
+       <!--End of play buttons-->
+
+       <!--Music start time-->
+       <div id="play-time">
+         <div id="start-time">
+               0:00
+         </div>
+         <!--End of music start time-->
+         <!--Begining of the progress bar-->
+          <div id="progress-bar">
+            <div id="percent-played">
+              <div id="circle">
+                  <i class="fas fa-circle"></i>
+              </div>
+            </div>
+          </div>
+      <!--End of progress bar-->
+         <!--Music end time-->
+         <div id="end-time">
+               5:04
+         </div>
+         <!--End of music end time-->
+        </div>
+      </div>
+      <div id = "footer-right">
+       <!--Miscellaneous icons-->
+       <div id="queue">
+         <i class="fas fa-bars"></i>
+       </div>
+       <div id="computer-sync">
+        <i class="fa-solid fa-computer"></i>
+        </div>
+       
+       <div id="volume">
+         <i class="fas fa-volume-up"></i>
+       </div>
+       <div id="progress-bar-volume">
+        <div id="percent-raised">
+         <div id="circle-volume">
+           <i class="fas fa-circle"></i>
+          </div>
+        </div>
+       </div>
+       <!--End of miscellaneous icons-->
+      </div>
+      </div>
+     <!--End of music bar-->
+    </footer>
+      <!--End of footer section-->
+  </body>
+
+  <script src="script.js"></script>
+</html>
